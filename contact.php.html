@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OC | Construcción & Arenado</title>
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/apple-touch-icon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="active-preloader-ovh">
+
+<div class="preloader"><div class="spinner"></div></div> <!-- /.preloader -->
+
+<header class="header header-home-three">
+    <div class="header-top">
+        <div class="container">
+            <div class="pull-left left-contact-info">
+                <p><i class="fas fa-envelope-open"></i>camargo.construcciones@hotmail.com</p><!--
+                --><p><i class="zxp-icon-old-telephone-ringing"></i>+54 (264) 155420625</p>
+            </div><!-- /.pull-left -->
+            <div class="pull-right right-contact-info">
+                <p><a class="fab fa-linkedin-in" style="font-size:16px; color:#fff; padding-right: 20px;" href="https://www.linkedin.com/in/cristian-camargo-7a6b75185/" target="_blank"></a></p>
+                <!--p>
+                    <i class="fas fa-globe" style="color:#fff;"></i>
+                    <span class="select-box" style="padding-bottom:3px;">
+                        <select class="selectpicker" name="languages">
+                            <option value="">ES</option>
+                            <option value="1">EN</option>
+                        </select>
+                    </span>
+                </p-->
+            </div><!-- /.pull-right -->
+        </div><!-- /.container -->
+    </div><!-- /.header-top -->
+
+    <nav class="navbar navbar-default header-navigation stricky">
+        <div class="container clearfix" style="background: #4a4a4a00;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed zxp-icon-menu" data-toggle="collapse" data-target=".main-navigation" aria-expanded="false"> </button>
+                <a class="navbar-brand" href="#">
+                    <img src="img/Logo-OC.png" width="150" alt="Enobra">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse main-navigation mainmenu" id="main-nav-bar">
+                
+                <ul class="nav navbar-nav navigation-box">
+                    <li> <a href="index.php.html">Inicio</a> </li>
+                    <li> <a href="about.php.html">Nosotros</a> </li>
+                    <li> <a href="projects.php.html">Clientes</a> </li>
+                    <li class="current"> <a href="#">Contacto</a> </li>
+                </ul>                
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav>   
+</header><!-- /.header -->
+<section class="inner-banner">
+    <div class="container text-center">
+        <h3>Contacto</h3>
+        <div class="breadcumb">
+            <a href="#">Inicio</a><!--
+            --><span class="sep">/</span><!--
+            --><span class="page-name">Contacto</span>
+        </div><!-- /.breadcumb -->
+    </div><!-- /.container -->
+</section><!-- /.inner-banner -->
+
+<section class="contact-page-content sec-pad">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <form action="inc/sendemail.php" class="contact-form row">
+                    <div class="col-md-6">
+                        <p>Nombre</p>
+                        <input type="text" name="name">
+                    </div><!-- /.col-md-6 -->
+                    <div class="col-md-6">
+                        <p>E-mail</p>
+                        <input type="text" name="email">
+                    </div><!-- /.col-md-6 -->
+                    <div class="col-md-6">
+                        <p>Teléfono</p>
+                        <input type="text" name="phone">
+                    </div><!-- /.col-md-6 -->
+                    <div class="col-md-6">
+                        <p>Área</p>
+                        <select style="width:100%; height:36px;" id="area" name="area">
+                            <option value="Área Técnica">Técnica</option>
+                            <option value="Compras">Compras</option>
+                            <option value="RR HH">Recursos humanos</option>
+                        </select>
+                    </div><!-- /.col-md-6 -->
+                    <div class="col-md-12">
+                        <p>Mensaje</p>
+                        <textarea name="message"></textarea>
+                        <button type="submit">Enviar</button>
+                    </div><!-- /.col-md-6 -->
+                </form><!-- /.contact-form -->
+                <div class="result"></div><!-- /.result -->
+            </div><!-- /.col-md-8 -->
+            <div class="col-md-4">
+                <div class="contact-info">
+                    <h3>¡Contáctanos!</h3>
+                    <p>Estos son nuestros detalles de contacto,<br> o envianos un mensaje y responderemos a la brevedad.</p>
+                    <div class="single-contact-info">
+                        <i class="zxp-icon-old-telephone-ringing"></i>
+                        <p>
+                            <b>TEL</b>: +54 (264) 155420625
+                        </p>
+                    </div><!-- /.single-contact-info -->
+                    <div class="single-contact-info">
+                        <i class="fas fa-envelope-open"></i>
+                        <p><b>camargo.construcciones@hotmail.com</b></p>
+                    </div><!-- /.single-contact-info -->
+                    <div class="single-contact-info">
+                        <i class="fas fa-home"></i>
+                        <p> Int. Fernández Barrientos 3883<br>
+                            Chimbas, San Juan<br>
+                            República Argentina <br>
+                        </p>
+                    </div><!-- /.single-contact-info -->
+                </div><!-- /.contact-info -->
+            </div><!-- /.col-md-4 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</div><!-- /.container-fluid -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=2645420625&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20OC:%20" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+</section><!-- /.contact-page-content -->
+
+<div class="google-map" id="contact-google-map" data-map-lat="-31.4741657" data-map-lng="-68.480826" data-icon-path="img/map-marker-1.png" data-map-title="OC - San Juan, Argentina" data-map-zoom="15" data-markers='{
+            "marker-1": [-31.4741657, -68.480826, "<h4>OC SA</h4><p>San Juan, Argentina</p>"]
+        }'>
+
+ </div>
+
+ <footer class="site-footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-1 col-sm-6 col-xs-12">
+                    &nbsp;
+                </div><!-- /.col-md-2 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-widget about-widget">
+                        <a href="index.php.html"><img src="img/Logo-OC.png" width="200px" alt="Enobra"></a>
+                        <p>
+                            OC se desarrolla utilizando mano de obra propia de ingenieros, arquitectos, técnicos, administrativos, capataces y operarios, que forman parte de nuestro equipo de trabajo de más de 120 empleados.
+                        </p>
+                        <div class="social">
+                            <a href="https://www.linkedin.com/in/cristian-camargo-7a6b75185/" class="fab fa-linkedin-in" target="_blank"></a>
+                        </div><!-- /.social -->
+                    </div><!-- /.footer-widget about-widget -->
+                </div><!-- /.col-md-3 -->
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="footer-widget twitter-widget">
+                        <div class="title">
+                            <h3>Contacto</h3>
+                        </div><!-- /.title -->
+                        <div class="contact-info">
+                            <div class="single-contact-info">
+                                <i class="zxp-icon-old-telephone-ringing"></i>
+                                <p>
+                                    TEL: +54 (264) 155420625
+                                </p>
+                            </div><!-- /.single-contact-info -->
+                            <div class="single-contact-info">
+                                <i class="fas fa-envelope-open"></i>
+                                <p>camargo.construcciones@hotmail.com</p>
+                            </div><!-- /.single-contact-info -->
+                            <div class="single-contact-info">
+                                <i class="fas fa-home"></i>
+                                <p> Int. Fernández Barrientos 3883<br>
+                                    Chimbas, San Juan<br>
+                                    República Argentina <br>
+                                </p>
+                            </div><!-- /.single-contact-info -->
+                        </div><!-- /.contact-info -->
+                    </div><!-- /.footer-widget twitter-widget -->
+                </div><!-- /.col-md-4 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-widget links-widget">
+                        <div class="title">
+                            <h3>Links rápidos</h3>
+                        </div><!-- /.title -->
+                        <ul class="links-list">
+                            <li><a href="index.php.html"><i class="fas fa-angle-right"></i>Inicio</a></li>
+                            <li><a href="about.php.html"><i class="fas fa-angle-right"></i>Nosotros</a></li>
+                            <li><a href="projects.php.html"><i class="fas fa-angle-right"></i>Clientes</a></li>
+                            <li><a href="contact.php.html"><i class="fas fa-angle-right"></i>Contacto</a></li>
+                        </ul><!-- /.links-list -->
+                    </div><!-- /.footer-widget links-widget -->
+                </div><!-- /.col-md-3 -->
+                <div class="col-md-1 col-sm-6 col-xs-12">
+                    &nbsp;
+                </div><!-- /.col-md-2 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.footer-top -->
+</footer><!-- /.site-footer --> 
+
+<div class="scroll-to-top scroll-to-target" data-target="html"><i class="fa fa-angle-up"></i></div>                    
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGVCIwbinX0ILIm8KundVXgzkX_yPLsgU"></script>
+
+<!-- google map helper -->  
+<script src="js/gmaps.js"></script>
+<script src="js/map-helper.js"></script>
+
+</body>
+</html>
